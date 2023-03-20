@@ -381,4 +381,15 @@
         <Setter Property="SelectedTabColor" Value="{AppThemeBinding Light={StaticResource Gray950}, Dark={StaticResource Gray200}}" />
     </Style>
 
+    <Style TargetType="Button" x:Key="ButtonStyle">
+        <Setter Property="FontSize" Value="22"></Setter>
+        <Setter Property="HeightRequest" Value="52"></Setter>
+        <Setter Property="Padding" Value="64.0"></Setter>
+        <Setter Property="TextColor" Value="White"></Setter>
+        <Setter Property="FontFamily" Value= "MediumFont"></Setter>
+        <Setter Property="CornerRadius" Value="26"></Setter>
+        <Setter Property="BackgroundColor" Value="{StaticResource ButtonBackgoundColor}"></Setter>
+        <Setter Property="BorderWidth" Value="0"></Setter>
+        <Setter Property="BorderColor" Value="{StaticResource BorderColor}"></Setter>
+    </Style>
 </ResourceDictionary>
