@@ -44,6 +44,11 @@
         <Setter Property="TextColor" Value="{StaticResource LightTextColot}"/>
     </Style>
 
+    <Style TargetType="Label" x:Key="MenuLableStyle" BasedOn="{StaticResource BaseRegularLabelStyle}">
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="TextColor" Value="#CCCCCC"/>
+    </Style>
+
     <Style TargetType="Button" x:Key="ButtonStyle">
         <Setter Property="FontSize" Value="22" />
         <Setter Property="HeightRequest" Value="52" />
