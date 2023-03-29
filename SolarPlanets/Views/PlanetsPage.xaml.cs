@@ -14,7 +14,7 @@ public partial class PlanetsPage : ContentPage
 
 	async void Planets_SelectionChanges(System.Object sender, System.EventArgs e)
 	{
-		await Navigation.PushAsync(new PlanetDetailsPage(e CurrentSelection.First() as Planet));
+		await Navigation.PushAsync(new PlanetDetailsPage(e.CurrentSelection.First() as Planet));
 	}
 
 	async void GridArea_Tapped(System.Object sender, System.EventArgs e)

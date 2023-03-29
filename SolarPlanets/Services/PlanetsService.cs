@@ -16,7 +16,7 @@ namespace SolarPlanets.Services
                 Name = "Mercury",
                 Subtitle = "The smallest planet",
                 HeroImage = "mercury.png",
-                Description = "Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth. It is the smallest planet in the Solar System, with an equatorial radius of 2,439.7 kilometres (1,516.0 mi). The ancients knew Mercury by different names depending on whether it was an evening star or a morning star. By about 350 BC, the ancient Greeks had realized the two stars were one. They knew the planet as Στίλβων Stilbōn, meaning \"twinkling\"."
+                Description = "Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth. It is the smallest planet in the Solar System, with an equatorial radius of 2,439.7 kilometres (1,516.0 mi). The ancients knew Mercury by different names depending on whether it was an evening star or a morning star. By about 350 BC, the ancient Greeks had realized the two stars were one. They knew the planet as Στίλβων Stilbōn, meaning \"twinkling\".",
                 AccentColorStart = Color.FromArgb("#353535"),
                 AccentColorEnd = Color.FromArgb("#8d9098"),
                 Images = new()
