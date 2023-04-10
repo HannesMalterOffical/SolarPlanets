@@ -41,7 +41,7 @@
 
     <Style TargetType="Label" x:Key="PageHeaderSubtitleStyle" BasedOn="{StaticResource BaseMediumLabelStyle}">
         <Setter Property="FontSize" Value="14" />
-        <Setter Property="TextColor" Value="{StaticResource LightTextColot}"/>
+        <Setter Property="TextColor" Value="{StaticResource LightTextColor}"/>
     </Style>
 
     <Style TargetType="Label" x:Key="MenuLableStyle" BasedOn="{StaticResource BaseRegularLabelStyle}">
@@ -51,21 +51,36 @@
 
     <Style TargetType="Label" x:Key="FeaturedPlanetHeaderSubtitleStyle" BasedOn="{StaticResource BaseMediumLabelStyle}">
         <Setter Property="FontSize" Value="14"/>
-        <Setter Property="TextColor" Value="{StaticResource LightTextColot}"/>
+        <Setter Property="TextColor" Value="{StaticResource LightTextColor}"/>
     </Style>
 
     <Style TargetType="Label" x:Key="FeaturedPlanetHeaderStyle" BasedOn="{StaticResource BaseRegularLabelStyle}">
         <Setter Property="FontSize" Value="22"/>
-        <Setter Property="TextColor" Value="{StaticResource LightTextColot}"/>
+        <Setter Property="TextColor" Value="{StaticResource LightTextColor}"/>
     </Style>
 
     <Style TargetType="Label" x:Key="AllPlanetHeaderStyle" BasedOn="{StaticResource BaseMediumLabelStyle}">
         <Setter Property="FontSize" Value="18"/>
-        <Setter Property="TextColor" Value="{StaticResource LightTextColot}"/>
+        <Setter Property="TextColor" Value="{StaticResource LightTextColor}"/>
+    </Style>
+
+    <Style TargetType="Label" x:Key="PlanetHeaderSubtitleStyle" BasedOn="{StaticResource BaseRegularLabelStyle}">
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="TextColor" Value="{StaticResource LightTextColor}"/>
+    </Style>
+
+    <Style TargetType="Label" x:Key="AllPlanetHeaderSubtitleStyle" BasedOn="{StaticResource BaseMediumLabelStyle}">
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="TextColor" Value="{StaticResource LightTextColor}"/>
+    </Style>
+
+    <Style TargetType="Label" x:Key="PlanetDetailsTextStyle" BasedOn="{StaticResource BaseMediumLabelStyle}">
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="TextColor" Value="{StaticResource LightTextColor}"/>
     </Style>
     
     
-            <Style TargetType="Button" x:Key="ButtonStyle">
+    <Style TargetType="Button" x:Key="ButtonStyle">
         <Setter Property="FontSize" Value="22" />
         <Setter Property="HeightRequest" Value="52" />
         <Setter Property="Padding" Value="64,0" />
